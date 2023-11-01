@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "recipe-app",
-    "slug": "recipe-app",
+    "scheme": "pokemon",
+    "name": "pokemon's",
+    "slug": "pokemons",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amit_rawat.pokemons"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c826466a-2c3d-4439-a294-8a8af1499fc9"
+      }
     }
   }
 }
